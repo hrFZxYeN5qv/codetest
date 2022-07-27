@@ -31,4 +31,9 @@ public class obj {
         int i=(int) f;
         return i;
     }
+
+    /*
+    public String toString(){
+        return "Obj";
+    } */
 }

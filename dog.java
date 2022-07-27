@@ -5,4 +5,8 @@ public class dog extends Pet{
         super(h,w);
         Color=color;
     }
+
+    String mycolor(){
+        return Color;
+    }
 }

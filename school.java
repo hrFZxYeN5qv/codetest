@@ -1,4 +1,4 @@
-
+import static java.lang.System.*;
 
 public class school {
 
@@ -8,6 +8,7 @@ public class school {
         andy.getHight();
         andy.setName("andy");
 
+        out.println("hello");
         girl mary=new girl("babi",13,(float)99.3,(float)25);
         mary.setName("mary");
 
@@ -26,7 +27,20 @@ public class school {
 
         System.out.println(String.format("Andy`s pet name is %s ",p.Name()));
         System.out.println(String.format("Mimi`s pet name is %s ",mimi.Name()));
+        Object o=p;
+        out.println(o.toString());
+        dog pp=(dog)o;
+        out.println(pp.mycolor());
 
+        int i;
+        Integer I;
+
+        i=1;
+        I=i;
+        i=I;
+        I=2;
+        i=I;
+        
 
     }
 }

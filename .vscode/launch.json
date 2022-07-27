@@ -22,7 +22,7 @@
             "name": "Launch HelloWorld",
             "request": "launch",
             "mainClass": "HelloWorld",
-            "args": "Hi",
+            "args": "/home/vk/git/codetest/Hello.java",
             "projectName": "codetest_2f34835"
         },
         {

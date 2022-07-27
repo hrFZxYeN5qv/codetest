@@ -13,7 +13,7 @@ public class Hello {
         if(arg.length > 0)
             Hello.c(Integer.valueOf(arg[0]));
         Hello h=new Hello(Integer.parseInt("223233232"));
-        h.c(233444);
+        h.d(233444);
         return;
     }
     public static void HelloTest(String arg[]){
@@ -59,6 +59,21 @@ public class Hello {
 
 
     public static int c(int x){
+        int s;
+        for(s=2;s<x;s++){
+            if(x%s==0){
+                System.out.println(String.valueOf(s));
+                c(x/s);
+                break;
+            }
+        }
+        if(s==x){
+            System.out.println(String.valueOf(s));
+        }
+        return 0;
+    }
+
+    public  int d(int x){
         int s;
         for(s=2;s<x;s++){
             if(x%s==0){
