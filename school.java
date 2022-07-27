@@ -20,6 +20,7 @@ public class school {
         dog pipi=new dog(50,10,"yellow");
         cat mimi=new cat();
         Pet p=mimi;
+        p=pipi;
         andy.givePet(p);
         p.Name("pipi");
 
