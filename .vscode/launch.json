@@ -31,6 +31,13 @@
             "request": "launch",
             "mainClass": "school",
             "projectName": "codetest_2f34835"
+        },
+        {
+            "type": "java",
+            "name": "Tree Test",
+            "request": "launch",
+            "mainClass": "Test.TreeSetTest",
+            "projectName": "codetest_2f34835"
         }
-    ]
+        ]
 }
